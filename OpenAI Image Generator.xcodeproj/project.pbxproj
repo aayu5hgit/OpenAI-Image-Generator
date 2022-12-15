@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86FF5D87294ADBB8007484C5 /* OpenAI_Image_GeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FF5D86294ADBB8007484C5 /* OpenAI_Image_GeneratorApp.swift */; };
+		86FF5D89294ADBB8007484C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FF5D88294ADBB8007484C5 /* ContentView.swift */; };
+		86FF5D8B294ADBBA007484C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86FF5D8A294ADBBA007484C5 /* Assets.xcassets */; };
+		86FF5D8E294ADBBA007484C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86FF5D8D294ADBBA007484C5 /* Preview Assets.xcassets */; };
+		86FF5D98294ADBBA007484C5 /* OpenAI_Image_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FF5D97294ADBBA007484C5 /* OpenAI_Image_GeneratorTests.swift */; };
+		86FF5DA2294ADBBA007484C5 /* OpenAI_Image_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FF5DA1294ADBBA007484C5 /* OpenAI_Image_GeneratorUITests.swift */; };
+		86FF5DA4294ADBBA007484C5 /* OpenAI_Image_GeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FF5DA3294ADBBA007484C5 /* OpenAI_Image_GeneratorUITestsLaunchTests.swift */; };
+		86FF5DB2294ADC4F007484C5 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 86FF5DB1294ADC4F007484C5 /* OpenAIKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86FF5D94294ADBBA007484C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86FF5D7B294ADBB8007484C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86FF5D82294ADBB8007484C5;
+			remoteInfo = "OpenAI Image Generator";
+		};
+		86FF5D9E294ADBBA007484C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86FF5D7B294ADBB8007484C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86FF5D82294ADBB8007484C5;
+			remoteInfo = "OpenAI Image Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86FF5D83294ADBB8007484C5 /* OpenAI Image Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenAI Image Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86FF5D86294ADBB8007484C5 /* OpenAI_Image_GeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI_Image_GeneratorApp.swift; sourceTree = "<group>"; };
+		86FF5D88294ADBB8007484C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86FF5D8A294ADBBA007484C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86FF5D8D294ADBBA007484C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86FF5D93294ADBBA007484C5 /* OpenAI Image GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenAI Image GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86FF5D97294ADBBA007484C5 /* OpenAI_Image_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI_Image_GeneratorTests.swift; sourceTree = "<group>"; };
+		86FF5D9D294ADBBA007484C5 /* OpenAI Image GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenAI Image GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86FF5DA1294ADBBA007484C5 /* OpenAI_Image_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI_Image_GeneratorUITests.swift; sourceTree = "<group>"; };
+		86FF5DA3294ADBBA007484C5 /* OpenAI_Image_GeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI_Image_GeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86FF5D80294ADBB8007484C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FF5DB2294ADC4F007484C5 /* OpenAIKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FF5D90294ADBBA007484C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FF5D9A294ADBBA007484C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86FF5D7A294ADBB8007484C5 = {
+			isa = PBXGroup;
+			children = (
+				86FF5D85294ADBB8007484C5 /* OpenAI Image Generator */,
+				86FF5D96294ADBBA007484C5 /* OpenAI Image GeneratorTests */,
+				86FF5DA0294ADBBA007484C5 /* OpenAI Image GeneratorUITests */,
+				86FF5D84294ADBB8007484C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86FF5D84294ADBB8007484C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86FF5D83294ADBB8007484C5 /* OpenAI Image Generator.app */,
+				86FF5D93294ADBBA007484C5 /* OpenAI Image GeneratorTests.xctest */,
+				86FF5D9D294ADBBA007484C5 /* OpenAI Image GeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86FF5D85294ADBB8007484C5 /* OpenAI Image Generator */ = {
+			isa = PBXGroup;
+			children = (
+				86FF5D86294ADBB8007484C5 /* OpenAI_Image_GeneratorApp.swift */,
+				86FF5D88294ADBB8007484C5 /* ContentView.swift */,
+				86FF5D8A294ADBBA007484C5 /* Assets.xcassets */,
+				86FF5D8C294ADBBA007484C5 /* Preview Content */,
+			);
+			path = "OpenAI Image Generator";
+			sourceTree = "<group>";
+		};
+		86FF5D8C294ADBBA007484C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				86FF5D8D294ADBBA007484C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86FF5D96294ADBBA007484C5 /* OpenAI Image GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				86FF5D97294ADBBA007484C5 /* OpenAI_Image_GeneratorTests.swift */,
+			);
+			path = "OpenAI Image GeneratorTests";
+			sourceTree = "<group>";
+		};
+		86FF5DA0294ADBBA007484C5 /* OpenAI Image GeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86FF5DA1294ADBBA007484C5 /* OpenAI_Image_GeneratorUITests.swift */,
+				86FF5DA3294ADBBA007484C5 /* OpenAI_Image_GeneratorUITestsLaunchTests.swift */,
+			);
+			path = "OpenAI Image GeneratorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86FF5D82294ADBB8007484C5 /* OpenAI Image Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86FF5DA7294ADBBA007484C5 /* Build configuration list for PBXNativeTarget "OpenAI Image Generator" */;
+			buildPhases = (
+				86FF5D7F294ADBB8007484C5 /* Sources */,
+				86FF5D80294ADBB8007484C5 /* Frameworks */,
+				86FF5D81294ADBB8007484C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenAI Image Generator";
+			packageProductDependencies = (
+				86FF5DB1294ADC4F007484C5 /* OpenAIKit */,
+			);
+			productName = "OpenAI Image Generator";
+			productReference = 86FF5D83294ADBB8007484C5 /* OpenAI Image Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86FF5D92294ADBBA007484C5 /* OpenAI Image GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86FF5DAA294ADBBA007484C5 /* Build configuration list for PBXNativeTarget "OpenAI Image GeneratorTests" */;
+			buildPhases = (
+				86FF5D8F294ADBBA007484C5 /* Sources */,
+				86FF5D90294ADBBA007484C5 /* Frameworks */,
+				86FF5D91294ADBBA007484C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86FF5D95294ADBBA007484C5 /* PBXTargetDependency */,
+			);
+			name = "OpenAI Image GeneratorTests";
+			productName = "OpenAI Image GeneratorTests";
+			productReference = 86FF5D93294ADBBA007484C5 /* OpenAI Image GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86FF5D9C294ADBBA007484C5 /* OpenAI Image GeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86FF5DAD294ADBBA007484C5 /* Build configuration list for PBXNativeTarget "OpenAI Image GeneratorUITests" */;
+			buildPhases = (
+				86FF5D99294ADBBA007484C5 /* Sources */,
+				86FF5D9A294ADBBA007484C5 /* Frameworks */,
+				86FF5D9B294ADBBA007484C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86FF5D9F294ADBBA007484C5 /* PBXTargetDependency */,
+			);
+			name = "OpenAI Image GeneratorUITests";
+			productName = "OpenAI Image GeneratorUITests";
+			productReference = 86FF5D9D294ADBBA007484C5 /* OpenAI Image GeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86FF5D7B294ADBB8007484C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					86FF5D82294ADBB8007484C5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					86FF5D92294ADBBA007484C5 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 86FF5D82294ADBB8007484C5;
+					};
+					86FF5D9C294ADBBA007484C5 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 86FF5D82294ADBB8007484C5;
+					};
+				};
+			};
+			buildConfigurationList = 86FF5D7E294ADBB8007484C5 /* Build configuration list for PBXProject "OpenAI Image Generator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86FF5D7A294ADBB8007484C5;
+			packageReferences = (
+				86FF5DB0294ADC4F007484C5 /* XCRemoteSwiftPackageReference "OpenAIKit" */,
+			);
+			productRefGroup = 86FF5D84294ADBB8007484C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86FF5D82294ADBB8007484C5 /* OpenAI Image Generator */,
+				86FF5D92294ADBBA007484C5 /* OpenAI Image GeneratorTests */,
+				86FF5D9C294ADBBA007484C5 /* OpenAI Image GeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86FF5D81294ADBB8007484C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FF5D8E294ADBBA007484C5 /* Preview Assets.xcassets in Resources */,
+				86FF5D8B294ADBBA007484C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FF5D91294ADBBA007484C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FF5D9B294ADBBA007484C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86FF5D7F294ADBB8007484C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FF5D89294ADBB8007484C5 /* ContentView.swift in Sources */,
+				86FF5D87294ADBB8007484C5 /* OpenAI_Image_GeneratorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FF5D8F294ADBBA007484C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FF5D98294ADBBA007484C5 /* OpenAI_Image_GeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FF5D99294ADBBA007484C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FF5DA4294ADBBA007484C5 /* OpenAI_Image_GeneratorUITestsLaunchTests.swift in Sources */,
+				86FF5DA2294ADBBA007484C5 /* OpenAI_Image_GeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86FF5D95294ADBBA007484C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86FF5D82294ADBB8007484C5 /* OpenAI Image Generator */;
+			targetProxy = 86FF5D94294ADBBA007484C5 /* PBXContainerItemProxy */;
+		};
+		86FF5D9F294ADBBA007484C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86FF5D82294ADBB8007484C5 /* OpenAI Image Generator */;
+			targetProxy = 86FF5D9E294ADBBA007484C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		86FF5DA5294ADBBA007484C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86FF5DA6294ADBBA007484C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86FF5DA8294ADBBA007484C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenAI Image Generator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.OpenAI-Image-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86FF5DA9294ADBBA007484C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenAI Image Generator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.OpenAI-Image-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86FF5DAB294ADBBA007484C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.OpenAI-Image-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenAI Image Generator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenAI Image Generator";
+			};
+			name = Debug;
+		};
+		86FF5DAC294ADBBA007484C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.OpenAI-Image-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenAI Image Generator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenAI Image Generator";
+			};
+			name = Release;
+		};
+		86FF5DAE294ADBBA007484C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.OpenAI-Image-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenAI Image Generator";
+			};
+			name = Debug;
+		};
+		86FF5DAF294ADBBA007484C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.OpenAI-Image-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OpenAI Image Generator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86FF5D7E294ADBB8007484C5 /* Build configuration list for PBXProject "OpenAI Image Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FF5DA5294ADBBA007484C5 /* Debug */,
+				86FF5DA6294ADBBA007484C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86FF5DA7294ADBBA007484C5 /* Build configuration list for PBXNativeTarget "OpenAI Image Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FF5DA8294ADBBA007484C5 /* Debug */,
+				86FF5DA9294ADBBA007484C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86FF5DAA294ADBBA007484C5 /* Build configuration list for PBXNativeTarget "OpenAI Image GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FF5DAB294ADBBA007484C5 /* Debug */,
+				86FF5DAC294ADBBA007484C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86FF5DAD294ADBBA007484C5 /* Build configuration list for PBXNativeTarget "OpenAI Image GeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FF5DAE294ADBBA007484C5 /* Debug */,
+				86FF5DAF294ADBBA007484C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86FF5DB0294ADC4F007484C5 /* XCRemoteSwiftPackageReference "OpenAIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MarcoDotIO/OpenAIKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86FF5DB1294ADC4F007484C5 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86FF5DB0294ADC4F007484C5 /* XCRemoteSwiftPackageReference "OpenAIKit" */;
+			productName = OpenAIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 86FF5D7B294ADBB8007484C5 /* Project object */;
+}
