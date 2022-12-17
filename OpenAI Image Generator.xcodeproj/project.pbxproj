@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8629DC59294DBEBB00E6AB06 /* SimpleToast in Frameworks */ = {isa = PBXBuildFile; productRef = 8629DC58294DBEBB00E6AB06 /* SimpleToast */; };
 		86FF5D87294ADBB8007484C5 /* OpenAI_Image_GeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FF5D86294ADBB8007484C5 /* OpenAI_Image_GeneratorApp.swift */; };
 		86FF5D89294ADBB8007484C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FF5D88294ADBB8007484C5 /* ContentView.swift */; };
 		86FF5D8B294ADBBA007484C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86FF5D8A294ADBBA007484C5 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8629DC59294DBEBB00E6AB06 /* SimpleToast in Frameworks */,
 				86FF5DB2294ADC4F007484C5 /* OpenAIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +149,7 @@
 			name = "OpenAI Image Generator";
 			packageProductDependencies = (
 				86FF5DB1294ADC4F007484C5 /* OpenAIKit */,
+				8629DC58294DBEBB00E6AB06 /* SimpleToast */,
 			);
 			productName = "OpenAI Image Generator";
 			productReference = 86FF5D83294ADBB8007484C5 /* OpenAI Image Generator.app */;
@@ -222,6 +225,7 @@
 			mainGroup = 86FF5D7A294ADBB8007484C5;
 			packageReferences = (
 				86FF5DB0294ADC4F007484C5 /* XCRemoteSwiftPackageReference "OpenAIKit" */,
+				8629DC57294DBEBB00E6AB06 /* XCRemoteSwiftPackageReference "SimpleToast" */,
 			);
 			productRefGroup = 86FF5D84294ADBB8007484C5 /* Products */;
 			projectDirPath = "";
@@ -425,6 +429,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OpenAI Image Generator/Preview Content\"";
+				DEVELOPMENT_TEAM = TPS8NV2BLU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -453,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OpenAI Image Generator/Preview Content\"";
+				DEVELOPMENT_TEAM = TPS8NV2BLU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -587,6 +593,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		8629DC57294DBEBB00E6AB06 /* XCRemoteSwiftPackageReference "SimpleToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sanzaru/SimpleToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.2;
+			};
+		};
 		86FF5DB0294ADC4F007484C5 /* XCRemoteSwiftPackageReference "OpenAIKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/MarcoDotIO/OpenAIKit";
@@ -598,6 +612,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8629DC58294DBEBB00E6AB06 /* SimpleToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8629DC57294DBEBB00E6AB06 /* XCRemoteSwiftPackageReference "SimpleToast" */;
+			productName = SimpleToast;
+		};
 		86FF5DB1294ADC4F007484C5 /* OpenAIKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 86FF5DB0294ADC4F007484C5 /* XCRemoteSwiftPackageReference "OpenAIKit" */;
