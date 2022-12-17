@@ -9,4 +9,4 @@ https://user-images.githubusercontent.com/86314754/208245728-6a3882ab-cfde-4867-
 
 
 
-<img src="Screenshots/s1.png" width="200px" height="400px"> <img src="Screenshots/sc1.png" width="200px" height="400px">  <img src="Screenshots/sc2.png" width="200px" height="400px">   <img src="Screenshots/sc3.png" width="200px" height="400px">   <img src="Screenshots/sc4.png" width="200px" height="400px">
+<img src="Screenshots/s1.PNG" width="200px" height="400px"> <img src="Screenshots/sc1.png" width="200px" height="400px">  <img src="Screenshots/sc2.png" width="200px" height="400px">   <img src="Screenshots/sc3.png" width="200px" height="400px">   <img src="Screenshots/sc4.png" width="200px" height="400px">
